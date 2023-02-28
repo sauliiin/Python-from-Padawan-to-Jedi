@@ -1,0 +1,6 @@
+->;Saulo;9
+->;Gustaf;12
+->;Olaf;16
+->;Ricky;34
+->;Lily;23
+->;Creuza;64

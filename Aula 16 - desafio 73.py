@@ -1,0 +1,7 @@
+tupla = ('Gustaf', 'Olaf', 'Ricky', 'Mortin', 'Maurice')
+print(f'Está é a ordem dos alunos classificados, do 1º ao último: {tupla}.')
+print(f'Estes são os 3 primeiros: {tupla[:3]}')
+print(f'Estes são os 2 últimos: {tupla[-2:]}')
+print(f'Estes são os alunos do pior ao melhor classificados: {tupla[5:0:-1]}')
+print('O Mortin ficou na {}ª posição'.format(tupla.index('Mortin') + 1))
+print(f'O nome dos alunos em ordem alfabética é: {sorted(tupla)}.')
