@@ -1,5 +1,5 @@
 nome = str(input('Digite o nome de uma cidade: ')).title().strip()
-print('Será que a Cidade COMEÇA ou não com a palavra Santo?')
+print('Será que a cidade COMEÇA ou não com a palavra Santo?')
 existe = 'Santo' in nome[:5]
 if ('Santo' in nome[:5]) is True:
     # Santo tem 5 letras

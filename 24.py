@@ -1,7 +1,8 @@
 nome = str(input('Digite seu nome completo: ')).strip()
-#strip() elimina os espaços antes e os espaços depois do nome, se o infeliz assim digitou
-print('Seu nome todo em maísuculo é:', nome.upper())
-print('Seu nome todo em mínusculo é:', nome.lower())
+#strip() elimina os espaços antes e os espaços depois do nome, se o infeliz assim digitou.
+#Dica: o usuário VAI ERRAR! Vc tem que antever isso no seu programa.
+print('Seu nome todo em maiúsculo é:', nome.upper())
+print('Seu nome todo em minúsculo é:', nome.lower())
 print('Seu nome capitalizado é:', nome.title())
 print('Seu nome completo contando os espaços tem X caracteres:', len(nome))
 print('Seu nome completo sem os espaços tem X caracteres:', len(nome)-nome.count(' '))

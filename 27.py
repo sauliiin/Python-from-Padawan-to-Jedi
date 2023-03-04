@@ -1,4 +1,6 @@
-frase = str(input('Digite uma frase que possua a letra a: ')).lower().strip()
+frase = str(input('Digite uma FRASE que possua a letra "a" em alguma ou todas palavras ou em nenhuma: ')).lower().strip()
+#Obs: Sacou a diferença entre ' e "? Você pode utilizar os dois a seu favor
+
 print('A frase inteira tem {} As e {} palavras'.format(frase.count('a'), len(frase.split())))
 separa = frase.split()
 print(separa)
