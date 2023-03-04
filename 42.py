@@ -1,6 +1,6 @@
 from datetime import date
 
-ano = int(input('Olá jovem padawan, em que ano vc nasceu? '))
+ano = int(input('Olá jovem Padawan, em que ano vc nasceu? '))
 anoatual = date.today().year
 idade = anoatual-ano
 if idade < 9:

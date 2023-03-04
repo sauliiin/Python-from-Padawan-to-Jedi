@@ -1,4 +1,4 @@
-#Escreva um programa que faça o PC pensar em um número inteiro entre 0 e 5 e peçá para o usuário adivinhar. O programa deve escrever se venceu ou perdeu.
+#Escreva um programa que faça o PC pensar em um número inteiro entre 0 e 5 e peça para o usuário adivinhar. O programa deve escrever se venceu ou perdeu.
 import time
 
 nome = str(input('Olá! Qual é seu nome? ')).strip().title()

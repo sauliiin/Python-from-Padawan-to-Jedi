@@ -1,0 +1,10 @@
+PAUSA IMPORTANTE!
+
+A partir de agora vc vai começar a utilizar mais condições mais complexas, por exemplo:
+if (L1 != L2) and (L2 != L3) and (L1 != L3):
+                    e     
+if (L1 != L2) or (L2 != L3) or (L1 != L3):
+
+Qual a diferença entre and e or? Quando usar cada?
+
+Recomendo ver o vídeo inteiro, simples, atual e com ótimos exemplos que podem ser utilizados em qualquer linguagem: https://www.youtube.com/watch?v=Ig4QZNpVZYs&t=643s

@@ -9,3 +9,8 @@ if numero / par == 2.0:
     print('\33[1;32mO numero é PAR!\033[m')
 else:
     print('\33[4;33mO número é IMPAR!\033[m')
+
+
+# Lembrete: Expressão para achar os número divisíveis por 3: if cont % 3 == 0
+#Expressão para achar números pares: if cont % 2 == 0
+#Expressão para achar números ímpares: if cont % 2 != 0 ou if X % 2 == 1 é impar

@@ -1,11 +1,10 @@
 # if
 # elif (else if)
-# elif
-# elif
 # else
+print('Padawan, if a Jedi Dev you want to be, english you must learn. Do or do not! There is no try.')
 
-# esle é opcional
-# se tem só é if é chamado de condição simples. com if e else é condição composta. Se tem if, elif e esle é condicional aninhada
+# else é opcional
+# se tem só o if é chamado de condição simples. com if e else é condição composta. Se tem if, elif e esle é condicional aninhada
 
 nome = str(input('Qual o seu nome? ')).title().strip()
 if nome == 'Saulo':
