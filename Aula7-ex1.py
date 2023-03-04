@@ -9,4 +9,4 @@ print('Prazer em te conhecer {:*^20}!'.format(nome))
 informal = nome.strip().title().split()[0]
 print(f'E aeeeee {informal}, bele?')
 
-#O {:20} indica que este campo tera 20 espaços. O > alinha à direita, o < à esquerda e o ^ centraliza. E o =? Façao teste pra ver!
+# O {:20} indica que este campo tera 20 espaços. O > alinha à direita, o < à esquerda e o ^ centraliza. 

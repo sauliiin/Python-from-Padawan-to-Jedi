@@ -1,0 +1,23 @@
+Import (importa alguma nova funcionalidade para o phyton)
+
+O import math, vai importar:
+ceil (teto): vai arredondar tudo pra cima
+floor: arredonda pra baixo
+trunc: vai truncar o número (elimina tudo depois da virgula)
+pow: é potência, semelhante aos **
+sqrt (square root): raiz quadrada
+factorial é fatorial. O fatorial (!) de um número n, representado por n!, é a multiplicação de n por seus antecessores maiores ou iguais a 1, ex: !5 = 5 x 4 x 3 x 2 x 1  
+
+importa math importa tudo isso acima, mas se quero apenas o sqrt e ceil: from -> math -> import -> sqrt,ceil
+
+Importando só o necessário fica mais leve.
+
+Eu posso importar tudoooo isso: https://docs.python.org/3/library/index.html Tá em Docs
+Eu posso importar ainda mais bibliotecas de PyPI: https://pypi.org/
+Eu ainda posso criar minha própria biblioteca e disponibilizar pro coleguinhas!
+
+Posso importar tb! 'Vamos importar a biblioteca emoji. Sei que existe pq vi no site https://pypi.org/.
+Escrevo import emoji, clico na lâmpada (isso, no pycharm) e depois em import
+No site, vou em Emoji Cheat Sheet pra conhecer os emojis que posso utilizar!
+Jeito mais fácil de instalar é clicar na engrenagem de configurações (canto superior direito do pycharm),
+vai em settings, Project:PhytonExercicios -> PhytonInterpreter e clica no +

@@ -7,10 +7,13 @@
 % é o resto da divisão inteira. Se 5//2=2, se a gente soma 2 com 2, quanto sobra (resto)? 1
 
 Expressao para achar os número divisiveis por 3: if cont % 3 == 0
+Expressao para achar numeros pares: if cont % 2 == 0
+Expressao para achar numeros ímpares: if cont % 2 != 0 ou if X % 2 == 1 é impar
 
 == é igual!
+!= é diferente
 
-Ordem de precedência (quais operadores são executados em primeiro em uma expressão aritimética:
+Ordem de precedência - quais operadores são executados em primeiro em uma expressão aritimética:
 1º - ()
 2º - **
 3º - *,/,//,%
