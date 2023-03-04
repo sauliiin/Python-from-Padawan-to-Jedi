@@ -1,6 +1,6 @@
 PAUSA IMPORTANTE!
 
-A partir de agora vc vai começar a utilizar mais condições mais complexas, por exemplo:
+A partir de agora vc vai começar a utilizar condições mais complexas, por exemplo:
 if (L1 != L2) and (L2 != L3) and (L1 != L3):
                     e     
 if (L1 != L2) or (L2 != L3) or (L1 != L3):

@@ -1,5 +1,7 @@
 import time
 from pacotes import texto
+# Faça um programa para calcular o preço de produtos de uma loja: 10% desconto à vista, 5% em 1x no cartão de crédito, 2x sem juros, 3x ou mais com 20% de juros.
+print('Meu Deus, que programa difícil de criar... Não vou conseguir 😭 e agora? Padawan, comece pelo começo e vá devagar: digite "Qual o preço do produto" e daí em diante siga no seu ritmo sem colar e sem quebrar a cabeça demais, pq vc já tem o conhecimento pra este exercício.')
 
 while True:
     texto.titulo('COMPRA ONLINE')
