@@ -22,3 +22,4 @@ else:
     print("O número {} você é impar".format(Y))
 
 print('Expressão para achar os número divisíveis por 3: if X % 3 == 0')
+

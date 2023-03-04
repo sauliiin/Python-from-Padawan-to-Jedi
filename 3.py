@@ -1,12 +1,12 @@
-n1 = int(input("Digite um número: "))
-n2 = int(input("Digite outro número: "))
-s = n1 + n2
-print("A soma entre os números digitados é:",s)
-print(f"A soma entre os números digitados é: {n1 + n2}")
-print("A soma entre {} e {} = {}".format(n1, n2, s))
-print(f"A soma entre {n1} e {n2} = {s}".format(n1, n2, s))
+print(" Oi "*5)
+nome = input("Qual é seu nome? ").title()
+print(f'Prazer em te conhecer {nome:20}!')
+print("Prazer em te conhecer {:>20}!".format(nome))
+print(f'Prazer em te conhecer {nome:<20}!')
+print("Prazer em te conhecer {:^20}!".format(nome))
+print("Prazer em te conhecer {:-<20}!".format(nome))
+print('Prazer em te conhecer {:*^20}!'.format(nome))
+informal = nome.strip().title().split()[0]
+print(f'E aeeeee {informal}, bele?')
 
-# int significa número inteiro"
-# float são números reais, exemplos: 4.5, 7.0, 4.567"
-# bool - booleanos são valores lógicos: True, False"
-# str - string são palavras, que ficam entre aspas"
+# O {:20} indica que este campo tera 20 espaços. O > alinha à direita, o < à esquerda e o ^ centraliza. 

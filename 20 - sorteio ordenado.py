@@ -1,6 +1,6 @@
-#Um professor quer escolher a ordem de apresentação dos seus quatro alunos
 import random as rd
 
+print('Um professor quer escolher a ordem de apresentação dos seus quatro alunos')
 print('Gabriel, Olavo, Livia e Cintia. Quem apresentará primeiro, segundo, terceiro e por último?')
 n1 = 'Gabriel'
 n2 = 'Olavo'

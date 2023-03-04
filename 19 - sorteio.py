@@ -1,4 +1,4 @@
-print("Você ganhou um item da lista abaixo, que será soteado!")
+print("Você ganhou um item da lista abaixo, que será sorteado!")
 import random
 print('Biscoito, Chocolate, R$ 100,00 e Playstation, qual será seu prêmio?')
 n1 = 'Biscoito'
@@ -9,14 +9,14 @@ lista = [n1, n2, n3, n4]
 n5 = random.choice(lista)
 print('O prêmio sorteado é {}.'.format(n5))
 
-print("Você ganhou um item da lista abaixo, que será soteado!")
+print("Você ganhou um item da lista abaixo, que será sorteado!")
 import random
 print('Biscoito, Chocolate, R$ 100,00 e Playstation, qual será seu prêmio?')
 lista = ['Biscoito', 'Chocolate', 'R$ 100,00', 'Playstation']
-n5 = random.choice(lista)
-print('O prêmio sorteado é {}.'.format(n5))
+n6 = random.choice(lista)
+print(f'O prêmio sorteado é {n6}.')
 
-print('Um de quatro alunos serão sorteados')
+print('Um de quatro alunos serão sorteados.')
 a1 = str(input('Primeiro aluno: '))
 a2 = str(input('Segundo nome: '))
 a3 = str(input('Terceiro aluno: '))
