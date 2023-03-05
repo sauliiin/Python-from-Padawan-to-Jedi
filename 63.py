@@ -1,8 +1,8 @@
 print('========================')
-print(' PROGRESSÃO ARITIMÉTICA ')
+print(' PROGRESSÃO ARITMÉTICA  ')
 print('========================')
 numero = int(input('Digite o primeiro termo: '))
-razao = int(input('Digite razão atirimética? '))
+razao = int(input('Digite razão aritmética? '))
 contador = 0
 while contador < 10:
     print('{} -> '.format(numero), end='')

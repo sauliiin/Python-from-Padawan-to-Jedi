@@ -29,4 +29,4 @@ while resp != 'N':
         maior = n
     if menor == 0 or n < menor:
             menor = n
-print(f'O maior número é {maior}, o menor {menor}, a soma de todos os números {cont} digitadoes é {soma} e a média entre eles é {soma/cont}')
+print(f'O maior número é {maior}, o menor {menor}, a soma de todos os  {cont} números digitados é {soma} e a média entre eles é {soma/cont}')
