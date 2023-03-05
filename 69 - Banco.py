@@ -1,5 +1,6 @@
 import time
-## // é divisão inteira. Ex: 5/2=2,5 (2 e meio). A divisão inteira é o valor inteiro, ou seja, 2. Então, 5//2=2
+# // é divisão inteira. Ex: 5/2=2,5 (2 e meio). A divisão inteira é o valor inteiro, ou seja, 2. Então, 5//2=2
+# No caixa automático deste banco, o saque é efetuado com o máximo de cédulas com  valores mais altos possível.
 saque = 0
 print('====================================')
 time.sleep(0.2)

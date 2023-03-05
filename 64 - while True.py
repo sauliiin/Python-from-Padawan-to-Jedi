@@ -1,11 +1,22 @@
+cont = 1
+while cont <= 10:
+    print(cont, '...', end='')
+    cont += 1
+print('Acabou!')
+
+# while true executa a repetição para sempre! break interrompe o loop
+s = 0
 while True:
-    print('---------------------------------')
-    num = int(input('Quer ver a tabuada de qual valor? '))
-    print('---------------------------------')
-    # nao precisa declarara um valor para multi antes nem somar mais 1, pq ele automaticamente ja utiliza os valores no range, mas de 1 a 10
-    for multi in range(1, 11):
-        print(f'{num} X {multi} = {num*multi}')
-    resp = input('Deseja continuar? (S/N) ').strip().upper()[0]
-    if resp in 'Nn':
+    print(cont, '...', end='')
+    cont += 1
+    if cont == 20:
         break
-print('Tchau!!!')
+    s += cont
+print(f'Acabou a soma é {s}!')
+
+#ATENÇÃO ATENCÃO ONDE VC COLCO A A FUNÇÃO BREAK! SE COLOCAR, POR EX, NO DESAFIO 66, DEPOIS DA SOMA, SOMA O 999
+
+nome = 'Jose'
+idade = 33
+altura = 1.8020374238749
+print(f'O {nome} tem {idade} amose {altura:.2f} de altura!')

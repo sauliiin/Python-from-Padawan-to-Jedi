@@ -11,6 +11,6 @@ if (L1 < L2 + L3) and (L2 < L1 + L3) and (L3 < L1 + L2):
     elif (L1 != L2) and (L2 != L3) and (L1 != L3):
         print('o triángulo é escaleno!')
     elif (L1 != L2) or (L2 != L3) or (L1 != L3):
-        print('o triángulo é isóceles!')
+        print('o triángulo é isósceles!')
 else:
     print('Os dados fornecidos NÃO possuem dimensões possiveis para construir um triangulo')

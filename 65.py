@@ -1,9 +1,11 @@
-contador = soma = 0
 while True:
-    numero = int(input('Digite um número inteiro (999 para parar): '))
-    if numero == 999:
+    print('---------------------------------')
+    num = int(input('Quer ver a tabuada de qual valor? '))
+    print('---------------------------------')
+    # nao precisa declarara um valor para multi antes nem somar mais 1, pq ele automaticamente ja utiliza os valores no range, mas de 1 a 10
+    for multi in range(1, 11):
+        print(f'{num} X {multi} = {num*multi}')
+    resp = input('Deseja continuar? (S/N) ').strip().upper()[0]
+    if resp in 'Nn':
         break
-    soma += numero
-    contador += 1
-print(f'Você digitou {contador} números e a soma entre eles é {soma}.')
-
+print('Tchau!!!')

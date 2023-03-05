@@ -17,6 +17,6 @@ if m >= 6.0:
 else:
     print("Que pena {}, você precisa estudar mais.".format(nome))
 
-# Veja que eu não coloquei uma segunda condição m < 6.0. O fato de colocar else já pressupoe isso
+# Veja que eu não coloquei uma segunda condição m < 6.0. O fato de colocar else já pressupõe isso
 # Não precisa fazer com o TAB, apesar de ficar mais bonito e claro, pode fazer simplificado:
-print('Parábens, {}, você foi aprovado!'.format(nome) if m >=6 else 'Que pena {}, você precisa estudar mais.'.format(nome))
+print('Parabéns, {}, você foi aprovado!'.format(nome) if m >=6 else 'Que pena {}, você precisa estudar mais.'.format(nome))

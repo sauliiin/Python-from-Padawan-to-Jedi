@@ -12,7 +12,7 @@ tupla ()
 lista []
 dicionário {}
 
-Tupla parece o fatiamento de palavras. Prof: Tuplas são imutáveis
+Tupla parece o fatiamento de palavras. Tuplas são imutáveis
 
 len significa length (comprimento)
 

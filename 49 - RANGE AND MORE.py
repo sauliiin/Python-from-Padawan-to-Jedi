@@ -1,6 +1,7 @@
 import time
 import emoji
 
+# Se eu quero um range entre 1 e 10, devo colocar for cont in range (1, 11) pq o último número não conta.
 for cont in range(10, -1, -1):
     print(cont)
     time.sleep(0.5)

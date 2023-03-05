@@ -5,7 +5,7 @@ import time
 
 nome = str(input('Seja muito bem vindo! Qual o seu nome? ')).title()
 casa = float(input(f'Olá {nome}, qual o valor do imóvel que você quer financiar? R$ '))
-ano = int(input('Em quantos anos você quer finaciar o imóvel? '))
+ano = int(input('Em quantos anos você quer financiar o imóvel? '))
 salario = float(input('Por último, me informe, por favor, qual o seu salário atual: R$ '))
 print(3*'**PROCESSANDO**')
 time.sleep(1)
