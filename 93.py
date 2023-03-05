@@ -3,7 +3,7 @@ lista = []
 print('-'*20)
 print('    JOGOS NA MEGA    ')
 print('-'*20)
-n = int(input('Quantos jogos aletatórios você quer sortear? '))
+n = int(input('Quantos jogos aleatórios você quer sortear? '))
 for c in range(1, n+1):
     print(f'Jogo {c}: ', end='')
     for cont in range(0, 6):

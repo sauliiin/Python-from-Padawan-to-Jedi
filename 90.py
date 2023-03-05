@@ -15,7 +15,8 @@ impares.sort()
 print(f'Os impares são: {impares}.')
 
 
-#PROF:
+#Existe Dev e copiador de código! A diferença entre um e outro é que o copiador de código nunca vai ser um Dev. O Dev está pronto para encarar e resolver desafios! Você pode chegar ao mesmo resultado com códigos diferentes, veja:
+
 núm = [[], []]
 for c in range(1, 8):
     valor = int(input(f'Digite o {c}º valor: '))

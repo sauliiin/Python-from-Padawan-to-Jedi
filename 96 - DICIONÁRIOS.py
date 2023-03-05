@@ -1,13 +1,13 @@
 #Tuplas ()
 #Listas []
-#Discionários {}
+#Dicionários {}
 # enumerate é pra tuplas e listas. Pra dicionários é items
 
 # dados = dict() ou dados = {}
 dados = {'nome': 'Pedro', 'idade': 23}
 print(dados['nome'])
 print(dados)
-# E pra adiconar mais dados?
+# E pra adicIonar mais dados?
 dados['sexo'] = 'M'
 del dados['idade']
 print(dados.values())
@@ -21,7 +21,7 @@ for k, v in dados.items():
 print('*'*20)
 print('')
 
-# pode misturar discionários com listas e tuplas
+# pode misturar dicionários com listas e tuplas
 alunos = [{'nome': 'Saulo', 'idade': 38}, {'nome': 'Olaf', 'idade': 27}, {'nome': 'Gustaf', 'idade': 42}]
 print(alunos)
 print(alunos[0]['nome'])
@@ -33,7 +33,7 @@ while c < len(alunos):
 print('*'*20)
 print('')
 
-#pode usar enumerate pq são varios dicioários em uma tupla
+#pode usar enumerate pq são vários dicionários em uma tupla
 for k, v in enumerate(alunos):
     print(f'O {alunos[k]["nome"]} tem {alunos[k]["idade"]} anos')
 

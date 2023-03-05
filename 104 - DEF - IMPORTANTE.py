@@ -1,3 +1,5 @@
+# def é uma palavra-chave, não é uma função, ela serve justamente para declarar e definir uma função que poderá ser utilizada posteriormente.
+
 def mostralinha():
     print('=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=')
 

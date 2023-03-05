@@ -1,7 +1,7 @@
 #listas ao contrário de tuplas, não são imutáveis.
-#pode inclusive adicionart mais itens - lista.append('bicileta')
-#pode inserir em qualquer lugar na posiçãpo da lista - lista.insert(0, 'bicicleta')
-#parta apagar elementos: dellista[3] ou lista.pop[3] ou lista.remove['bicicleta']
+#pode inclusive adicionar mais itens - lista.append('bicileta')
+#pode inserir em qualquer lugar na posição da lista - lista.insert(0, 'bicicleta')
+#parta apagar elementos: del lista[3] ou lista.pop[3] ou lista.remove['bicicleta']
 import random
 
 lista = [1, 4, 5, 6]
